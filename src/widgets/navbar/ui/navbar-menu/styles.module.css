@@ -1,0 +1,11 @@
+.navbar{
+    display:grid;
+    grid-template-rows: minmax(2vh,20vh);
+    grid-auto-rows: min-content;
+    grid-template-columns: 2vw min-content 2vw;
+    row-gap: 8px;
+}
+.navbar > * {
+    grid-column:2/3;
+}
+
